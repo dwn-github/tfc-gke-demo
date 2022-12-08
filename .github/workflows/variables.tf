@@ -1,5 +1,5 @@
 variable "project_id" {
-  description = "The project ID to host the cluster in"
+  description = " tfc-gke-demo"
 }
 variable "cluster_name" {
   description = "The name for the GKE cluster"
@@ -11,7 +11,7 @@ variable "env_name" {
 }
 variable "region" {
   description = "The region to host the cluster in"
-  default     = "europe-west1"
+  default     = "us-central1"
 }
 variable "network" {
   description = "The VPC network created to host the cluster in"
