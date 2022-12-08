@@ -1,5 +1,5 @@
 variable "project_id" {
-  description = "The project ID to host the cluster in"
+  description = " tfc-gke-demo"
 }
 variable "cluster_name" {
   description = "The name for the GKE cluster"
